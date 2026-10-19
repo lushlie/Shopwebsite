@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactPage - shopswebsite</title>
+
+{%   load static  %}
+
+<link rel="stylesheet" href="{%  static 'bootstrap/css/bootstrap.min.css'  %}">
+<script src="{%static 'bootstrap/js/bootstrap.min.js'%}"></script>
+
+
+<link rel="stylesheet" href="{% static 'css/contact.css' %}">
+
+</head>
+<body>
+    
+<h1 style="text-align: center;" class="text-danger">Contact</h1>
+
+<a href="{% url 'home' %}">Home</a>
+
+<p  class ="text-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nobis quis sed reiciendis temporibus laborum pariatur perferendis numquam ab, optio sunt, facere animi labore suscipit ipsam fugiat commodi consequuntur provident!
+Aut doloribus assumenda accusantium deserunt iure provident aperiam, labore earum, alias delectus enim commodi. Natus necessitatibus deleniti eos harum dolores eius autem sed porro rerum cumque! Est minima molestias modi.</p>
+
+<img src="{%   static 'images/contact.png'  %}" alt="">
+
+</body>
+</html>

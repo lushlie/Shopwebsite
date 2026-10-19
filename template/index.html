@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage - shopswebsite</title>
+
+{%  load static  %}
+
+<link rel="stylesheet" href="{%  static 'bootstrap/css/bootstrap.min.css'  %}">
+<script src="{%static 'bootstrap/js/bootstrap.min.js'%}"></script>
+
+<link rel="stylesheet" href="{% static 'css/index.css' %}">
+
+</head>
+<body>
+    
+<h1 style="text-align: center;" class="text-danger">Home</h1>
+
+<a href="{% url 'about' %}">About</a>
+<a href="{% url 'contact' %}">Contact</a>
+
+<p class ="text-success">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error maxime, earum cum aut ullam nisi dolorum. Tenetur atque amet ut doloribus ducimus? Ratione animi illum obcaecati assumenda officia voluptatibus accusamus.
+Porro reprehenderit neque officia eum consectetur repellat corrupti, mollitia ad nemo dolorem placeat distinctio praesentium consequatur, quis nobis ipsum! Alias incidunt nisi quos nostrum non accusamus soluta voluptatibus quisquam quam.</p>
+
+<img src="{%  static  'images/home.png'  %}" alt="">
+
+
+</body>
+</html>
